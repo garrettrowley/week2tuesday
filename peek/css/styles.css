@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+}
+
+.card{
+  width:260px;
+  margin: 10px;
+}
+
+.row{
+  padding: 20px
+}
