@@ -14,30 +14,40 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="card">
-          <img id="toggleImg" class="card-img-top" src="imgs/cool.jpg" alt="cool">
-          <div class="card-body">
-            <h5 class="card-title">jQuery Toggle(show/hide)</h5>
-            <p>This will toggle display as none</p>
-            <a id="toggler" class="btn btn-primary">Click Me!</a>
+        <div class="col-md-12">
+          <div class="btn-group btn-group-lg" role="group" aria-label="...">
+            <button class="btn btn-success" id="greenButton" type="button" name="button">green</button>
+            <button class="btn btn-warning" id="yellowButton" type="button" name="button">yellow</button>
+            <button class="btn btn-danger" id="redButton" type="button" name="button">red</button>
+            <button class="btn btn-primary" id="mysteryButton" type="button" name="button">???</button>
           </div>
         </div>
-        <div class="card">
-          <img id="toggleFade" class="card-img-top" src="imgs/cool.jpg" alt="cool">
-          <div class="card-body">
-            <h5 class="card-title">jQuery Toggle Fade</h5>
-            <p>This will fade the image in and out</p>
-            <a id="toggler2" class="btn btn-primary">Click Me!</a>
+      </div>
+      <div class="row">
+          <div class="col-md-4 card">
+            <img id="toggleImg" class="card-img-top" src="imgs/cool.jpg" alt="cool">
+            <div class="card-body">
+              <h5 class="card-title">jQuery Toggle(show/hide)</h5>
+              <p>This will toggle display as none</p>
+              <a id="toggler" class="btn btn-primary">Click Me!</a>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img id="toggleSlide" class="card-img-top" src="imgs/cool.jpg" alt="cool">
-          <div class="card-body">
-            <h5 class="card-title">jQuery Toggle Slide</h5>
-            <p>This will slide the image</p>
-            <a id="toggler3" class="btn btn-primary">Click Me!</a>
+          <div class="card col-md-4">
+            <img id="toggleFade" class="card-img-top" src="imgs/cool.jpg" alt="cool">
+            <div class="card-body">
+              <h5 class="card-title">jQuery Toggle Fade</h5>
+              <p>This will fade the image in and out</p>
+              <a id="toggler2" class="btn btn-primary">Click Me!</a>
+            </div>
           </div>
-        </div>
+          <div class="card col-md-4">
+            <img id="toggleSlide" class="card-img-top" src="imgs/cool.jpg" alt="cool">
+            <div class="card-body">
+              <h5 class="card-title">jQuery Toggle Slide</h5>
+              <p>This will slide the image</p>
+              <a id="toggler3" class="btn btn-primary">Click Me!</a>
+            </div>
+          </div>
       </div>
     </div>
   </body>

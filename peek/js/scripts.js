@@ -11,4 +11,23 @@ $(document).ready(function(){
     $("#toggleSlide").slideToggle();
   })
 
+
+  $("#greenButton").click(function(){
+    $("body").removeClass();
+    $("body").addClass("greenBackground");
+  })
+
+  $("#yellowButton").click(function(){
+    $("body").removeClass();
+    $("body").addClass("yellowBackground");
+  })
+
+  $("#redButton").click(function(){
+    $("body").removeClass();
+    $("body").addClass("redBackground");
+  })
+
+  $("#mysteryButton").click(function(){
+    $(".card").append("???");
+  })
 })

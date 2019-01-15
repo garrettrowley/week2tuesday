@@ -4,9 +4,22 @@ body{
 
 .card{
   width:260px;
-  margin: 10px;
+  margin: 0 auto;
 }
 
 .row{
-  padding: 20px
+  padding: 20px;
+}
+
+.greenBackground{
+  background-color:lightgreen;
+}
+
+.yellowBackground{
+  background-color:yellow;
+}
+
+.redBackground{
+  background-color:red;
+
 }
